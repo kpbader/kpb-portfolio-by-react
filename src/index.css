@@ -18,21 +18,23 @@ body {
 
 /* HEADER styles start */
 
-header {
+#home {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 
 }
 
-header h1 {
+
+#home h1 {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: lighter;
 }
 
-header a {
+
+#home a {
   display: flex;
   flex-wrap: wrap;
   font-size: 60px;

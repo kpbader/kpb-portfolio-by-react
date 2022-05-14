@@ -1,24 +1,38 @@
-// import logo from './logo.svg';
-import React, { useState } from 'react';
-import Nav from './components/Nav';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import './index.css';
+import './App.css'
 
+// importing components from react-router-dom package
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+  
+// import Home component
+import Home from "./components/Home/home";
+import Nav from "./components/Nav/nav";
+import Projects from "./components/Projects/projects";
+import Resume from "./components/Resume/resume";
+import Contact from "./components/Contact/contact";
+
+  
 function App() {
   return (
-    <div>
-      <Nav></Nav>
-      <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <Contact></Contact>
-      </main>
-    </div>
+    <>
+      {/* This is the alias of BrowserRouter i.e. Router */}
+     
+      <Router>
+        <Nav/>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/Projects" element={<Projects/>} />
+          <Route path="/Resume" element={<Resume/>} />
+          <Route path="/Contact" element={<Contact/>} />
+
+
+        </Routes>
+      </Router>
+    </>
   );
 }
-
+  
 export default App;

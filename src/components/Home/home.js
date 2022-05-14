@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import './home.css'
 
-function Nav() {
-
-
+function home(props) {
     return (
-        <header>
+        <div id="home">
             <h2>
                 <a data-testid="link" href="/">
                     KP Bader Web Development 
@@ -13,8 +12,8 @@ function Nav() {
             <nav>
 
             </nav>
-        </header>
+        </div>
     );
 }
 
-export default Nav;
+export default home;
