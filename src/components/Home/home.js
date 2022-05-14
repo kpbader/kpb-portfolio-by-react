@@ -1,18 +1,18 @@
-import React from 'react';
+import cityscape from '../../assets/images/cityscape_LANY_web-dev-copy.png';
 import './home.css'
 
 function home(props) {
     return (
-        <div id="home">
-            <h2>
+        <section id="home">
+            {/* <h2>
                 <a data-testid="link" href="/">
-                    KP Bader Web Development 
+                    KP Bader Web Development
                 </a>
-            </h2>
-            <nav>
-
-            </nav>
-        </div>
+            </h2> */}
+            <div>
+                <img src={cityscape} className="cityScape" />
+            </div>
+        </section>
     );
 }
 
