@@ -1,3 +1,127 @@
-#projects{
-    background-color:purple;
-}
+
+  /* PORTFOLIO styles start */
+  
+  #Portfolio {
+    margin: 50px;
+  }
+  
+  .portfolio-samples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-bottom: 15px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 10px;
+  }
+  
+  /* .kpb-portfolio-1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-bottom: 15px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 10px;
+  } */
+  
+  .kpb-portfolio-1 a {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--tertiary-color);
+  }
+  
+  .kpb-portfolio-1 a:hover {
+    color: var(--fourth-color);
+  }
+  .kpb-portfolio-1 img {
+    border-radius: 15px;
+  } 
+  
+  .kpb-portfolio-2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 600px;
+    padding: 15px;
+  }
+  
+  .kpb-portfolio-2 a {
+    display: flex; 
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--tertiary-color);
+  }
+  
+  .kpb-portfolio-2 a:hover {
+    color: var(--fourth-color);
+  }
+  
+  .kpb-portfolio-2 img {
+    border-radius: 15px;
+  }
+  
+  .kpb-portfolio-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    padding: 15px;
+  
+  }
+  
+  .kpb-portfolio-3 a {
+    display: flex; 
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--tertiary-color);
+  }
+  
+  .kpb-portfolio-3 a:hover {
+    color: var(--fourth-color);
+  }
+  
+  .kpb-portfolio-3 img {
+    display: flex; 
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+  } 
+  
+  .kpb-portfolio-4 a {
+    display: flex; 
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--tertiary-color);
+  }
+  
+  .kpb-portfolio-4 a:hover {
+    color: var(--fourth-color);
+  }
+  
+  /* .kpb-portfolio-4 img {
+    display: flex; 
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+  } */
+  
+  
+  /* PORTFOLIO styles end */

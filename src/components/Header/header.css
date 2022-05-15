@@ -1,0 +1,23 @@
+#header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#header h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 60px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}

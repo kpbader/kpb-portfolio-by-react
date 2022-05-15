@@ -1,0 +1,40 @@
+.page-header {
+    background-color: pink;
+}
+  
+  #About {
+    margin: 50px;
+  }
+  
+  .about-kpb {
+    display: inline-flex;
+    justify-content: center;
+    padding: 30px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 10px;
+  }
+  
+  .about-kpb img {
+    height: 400px;
+    width: 315px;
+    margin: 30px;
+    border-radius: 15px;
+  }
+  
+  .about-kpb p {
+    position: relative;
+    margin: 10px;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  
+  .about-kpb div p a {
+    color: var(--secondary-color);
+  }
+  
+  .about-kpb div p a:hover {
+    color: var(--fourth-color);
+  }
+  
+  /* ABOUT styles end */

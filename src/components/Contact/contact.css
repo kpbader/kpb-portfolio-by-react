@@ -1,0 +1,29 @@
+  /* CONTACT styles start */
+  
+  #Contact {
+    margin: 50px;
+    padding-top: 20px;
+    border-top: 2px solid var(--tertiary-color);
+  }
+  
+  .contact-info {
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: var(--tertiary-color);
+  }
+  
+  .contact-info address {
+    font-style: normal;
+    font-weight: lighter;
+  }
+  
+  .contact-info address a {
+    color: var(--tertiary-color);
+  }
+  
+  .contact-info address a:hover {
+    color: var(--fourth-color);
+  }
+  /* CONTACT styles end */

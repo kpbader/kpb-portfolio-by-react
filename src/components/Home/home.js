@@ -4,13 +4,8 @@ import './home.css'
 function home(props) {
     return (
         <section id="home">
-            {/* <h2>
-                <a data-testid="link" href="/">
-                    KP Bader Web Development
-                </a>
-            </h2> */}
             <div>
-                <img src={cityscape} className="cityScape" />
+                <img src={cityscape} className="cityScape" alt="artwork done by KPB"/>
             </div>
         </section>
     );

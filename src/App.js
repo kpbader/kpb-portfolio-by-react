@@ -1,4 +1,8 @@
 import './App.css'
+import './components/Home/home.css';
+import './components/Header/header.css';
+import './components/Nav/nav.css';
+import './components/Footer/footer.css';
 
 // importing components from react-router-dom package
 import {
@@ -28,6 +32,10 @@ function App() {
           <Route path="/About" element={<About/>} />
           <Route path="/Projects" element={<Projects/>} />
           <Route path="/Resume" element={<Resume/>} />
+          {/* <Route path='/Resume' component={() => { 
+     window.location.href = 'https://drive.google.com/file/d/1CaexgmFdh3urSBDcrvxEVSO9cRZvARSp/view?usp=sharing'
+     return null;
+}}/> */}
           <Route path="/Contact" element={<Contact/>} />
         </Routes>
         <Footer />

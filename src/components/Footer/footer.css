@@ -1,0 +1,25 @@
+footer {
+  margin: 50px;
+  border-top: 2px solid var(--tertiary-color);
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.labels {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer a {
+  font-size: 25px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+footer a:hover {
+  color: var(--tertiary-color);
+}
