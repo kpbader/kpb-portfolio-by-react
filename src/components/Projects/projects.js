@@ -9,31 +9,37 @@ function portfolio(props) {
     return (
         <section id="projects">
             <div id="kit">
+                <h3>Kit</h3>
                 <a href="https://blooming-anchorage-21473.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/kit" target="_blank" rel="noopener noreferrer">Github repository</a>
                 <img src={kit} className="kit-image" alt="Screenshot of group social media project" />
             </div>
             <div id="note-taker">
+                <h3>Note Taker</h3>
                 <a href="https://kpbnotetaker-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/note-taker-express" target="_blank" rel="noopener noreferrer">Github repository</a>
                 <img src={notetaker} className="notmonday" alt="Screenshot of an employee hub project" />
             </div>
             <div id="weather-app">
+                <h3>Tell Me The Weather</h3>
                 <a href="https://github.com/kpbader/tell-me-the-weather" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/tell-me-the-weather" target="_blank" rel="noopener noreferrer">Github repository</a>
                 <img src={weather} className="weather" alt="Screenshot of a weather app using open weather api" />
             </div>
             <div id="rapid-quiz">
+                <h3>Rapid Quiz</h3>
                 <a href="https://kpbader.github.io/rapid-quiz/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/rapid-quiz" target="_blank" rel="noopener noreferrer">Github repository</a>
                 <img src={quiz} className="quiz" alt="Screenshot of a timed quiz app" />
             </div>
             <div id="workday">
+                <h3>Work Day</h3>
                 <a href="https://kpbader.github.io/digital-daily-planner/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/digital-daily-planner" target="_blank" rel="noopener noreferrer">Github repository</a>
                 <img src={workday} className="workday" alt="Screenshot of a daily planner app" />
             </div>
             <div id="password-generator">
+                <h3>Password Generator</h3>
                 <a href="https://kpbader.github.io/shuffle-the-deck-/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/shuffle-the-deck-" target="_blank" rel="noopener noreferrer">Github repository</a>
                 <img src={passwordgenerator} className="workday" alt="Screenshot of a running and coaching organization webpage" />

@@ -3,11 +3,14 @@
 ## Description 
 
 
+## Deployed site 
+
+
 ## Created with 
-
-
-## Screenshot
-
+* React 
+* JavaScript
+* CSS
+* Node.js
 
 ## Contact  
 kbader91@gmail.com
