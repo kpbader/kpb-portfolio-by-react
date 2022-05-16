@@ -2,15 +2,17 @@
   
 #resume {
     margin: 50px;
-    padding: 20px;
+    padding: 80px;
     text-align: center;
-    text-decoration: none;
     font-weight: lighter;
-    color: var(--tertiary-color);
     font-size: 24px;
     font-style: normal;
     font-weight: lighter;
-  
+  }
+
+  #resume a{
+    text-decoration: none;
+    color: var(--secondary-color);
   }
   
   #resume a:hover {

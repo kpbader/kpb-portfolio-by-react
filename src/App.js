@@ -3,6 +3,8 @@ import './components/Home/home.css';
 import './components/Header/header.css';
 import './components/Nav/nav.css';
 import './components/Footer/footer.css';
+import './components/Resume/resume.css';
+import './components/About/about.css';
 
 // importing components from react-router-dom package
 import {
@@ -10,7 +12,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-  
+
 import Home from "./components/Home/home";
 import Nav from "./components/Nav/nav";
 import Header from "./components/Header/header";
@@ -20,28 +22,24 @@ import Projects from "./components/Projects/projects";
 import Resume from "./components/Resume/resume";
 import Contact from "./components/Contact/contact";
 
-  
+
 function App() {
   return (
     <>
       <Router>
-        <Header/>
-        <Nav/>
+        <Header />
+        <Nav />
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/About" element={<About/>} />
-          <Route path="/Projects" element={<Projects/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Projects" element={<Projects />} />
           <Route path="/Resume" element={<Resume/>} />
-          {/* <Route path='/Resume' component={() => { 
-     window.location.href = 'https://drive.google.com/file/d/1CaexgmFdh3urSBDcrvxEVSO9cRZvARSp/view?usp=sharing'
-     return null;
-}}/> */}
-          <Route path="/Contact" element={<Contact/>} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
     </>
   );
 }
-  
+
 export default App;
