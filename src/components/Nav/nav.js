@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-// import footer from '../Footer/footer';
+import { useLocation } from "react-router"
+
 
 function Nav() {
+        const location = useLocation() 
+        console.log(location.pathname);
 
     return (
         <section id="nav-titles">

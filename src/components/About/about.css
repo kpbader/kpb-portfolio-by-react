@@ -1,5 +1,7 @@
   #About {
     margin: 50px;
+    /* display: flex;
+    flex-wrap: wrap; */
   }
   
   #about-container {
