@@ -25,8 +25,10 @@
 #kit {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px;
-  margin-bottom: 15px;
+  height: 1300x;
+  width: 1345px;
+  margin: 15px;
+  padding: 15px;
   border: 2px solid var(--tertiary-color);
   border-radius: 10px;
   justify-content: center;
