@@ -28,4 +28,64 @@
     font-weight: lighter;
   }
   
-  
+  @media screen and (max-width: 480px) {
+    #about {
+      /* padding-right: 100px; */
+      display: flex;
+    justify-content: center;
+    }
+
+    #about-container p {
+      font-size: 15px;
+      margin: 0px;
+    padding: 0px;
+    }
+
+
+    .selfie img{
+      margin: 5px;
+      height: 200px;
+      width: 160px;
+      /* margin: 30px; */
+    }
+    
+    #about-container{
+      width: 300px;
+      height: 700px;
+      display: flex;
+      flex-wrap: wrap;
+    justify-content: center;
+
+    }
+  }
+
+  /* @media screen and (max-width: 820px) {
+    #about { */
+      /* padding-right: 100px; */
+      /* display: flex;
+    justify-content: center;
+    }
+
+    #about-container p {
+      font-size: 15px;
+      margin: 0px;
+    padding: 0px;
+    }
+
+
+    .selfie img{
+      margin: 5px;
+      height: 200px;
+      width: 160px; */
+      /* margin: 30px; */
+    /* }
+     */
+    /* #about-container{
+      width: 300px;
+      height: 700px;
+      display: flex;
+      flex-wrap: wrap;
+    justify-content: center; */
+
+    /* }
+  } */

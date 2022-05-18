@@ -23,3 +23,10 @@ footer a {
 footer a:hover {
   color: var(--tertiary-color);
 }
+
+@media screen and (max-width: 480px) {
+  footer {
+    display: inline;
+    border-top: 0px;
+  }
+}
