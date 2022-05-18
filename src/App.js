@@ -30,7 +30,7 @@ function App() {
         <Header />
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/kpb-portfolio-by-react" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Resume" element={<Resume/>} />
