@@ -9,7 +9,7 @@ function Nav() {
     return (
         <section id="nav-titles">
             <ul id="title-list">
-            <Link to="/" className="title">Home</Link>
+            <Link to="/kpb-portfolio-by-react" className="title">Home</Link>
             <Link to="/About" className="title">About</Link>
             <Link to="/Projects" className="title">Projects</Link>
             <Link to="/Resume" className="title">Resume</Link>
