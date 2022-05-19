@@ -23,6 +23,7 @@
   #about-container p {
     position: relative;
     margin: 10px;
+    margin-top: 80px;
     padding: 40px;
     font-size: 27px;
     font-weight: lighter;
@@ -59,33 +60,19 @@
     }
   }
 
-  /* @media screen and (max-width: 820px) {
-    #about { */
-      /* padding-right: 100px; */
-      /* display: flex;
-    justify-content: center;
-    }
+  @media screen and (max-width: 820px) {
+    .selfie img { 
+      height: 300px;
+      width: 235px;
+  }
 
-    #about-container p {
-      font-size: 15px;
-      margin: 0px;
-    padding: 0px;
-    }
+  #about-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  #about-container p {
+    font-size: 20px;
+  }
 
-    .selfie img{
-      margin: 5px;
-      height: 200px;
-      width: 160px; */
-      /* margin: 30px; */
-    /* }
-     */
-    /* #about-container{
-      width: 300px;
-      height: 700px;
-      display: flex;
-      flex-wrap: wrap;
-    justify-content: center; */
-
-    /* }
-  } */
+}

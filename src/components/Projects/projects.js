@@ -43,7 +43,7 @@ function portfolio(props) {
             </div>
             <div id="password-generator">
                 <h3>Password Generator</h3>
-                <img src={passwordgenerator} className="workday" alt="Screenshot of a running and coaching organization webpage" />
+                <img src={passwordgenerator} className="password" alt="Screenshot of a running and coaching organization webpage" />
                 <a href="https://kpbader.github.io/shuffle-the-deck-/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/shuffle-the-deck-" target="_blank" rel="noopener noreferrer">Github repository</a>
             </div>
