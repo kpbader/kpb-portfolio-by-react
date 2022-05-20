@@ -6,7 +6,6 @@
   margin-bottom: 15px;
 }
 
-
 h3 {
   font-size: 30px;
   font-weight: normal;
@@ -19,7 +18,7 @@ h3 {
 }
 
 #form-slot-3 {
-  padding-right: 20px;
+  padding-right: 25px;
 }
 
 button {
@@ -37,10 +36,64 @@ button {
   font-size: 30px;
   color: var(--tertiary-color);
   margin: 30px;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .form-slot {
   font-size: 25px;
-  
 }
+
+@media screen and (max-width: 280px) {
+  #contact-form {
+    justify-content: center;
+  }
+
+  #form-slot-3 label {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  label {
+    font-size: 15px;
+  }
+
+  h3 {
+    padding: 20px;
+  }
+ 
+  /* #contact-form {
+    border:
+  } */
+
+  #form-slot-1 {
+    padding: 0px;
+  }
+
+  #form-slot-1 label {
+    font-size: 30px;
+  }
+
+  #form-slot-2 {
+    padding: 0px;
+  }
+
+  #form-slot-2 label {
+    font-size: 20px;
+  }
+
+  #form-slot-3 {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  #contact-form {
+    height: 300px;
+  }
+
+  #form-slot-3 {
+    padding-left: 0px;
+  }
+}
+
