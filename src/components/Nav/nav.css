@@ -33,20 +33,9 @@
     color: var(--tertiary-color);
   }
 
-  @media screen and (max-width: 414px) and (max-height: 896px) {
+  
+  @media screen and (max-width: 912px) and (max-height: 1368px) {
     #nav-titles a{
       font-size: 20px;
     }
   }
-  
-  @media screen and (max-width: 912px) and (max-height: 1368px) {
-    #nav-titles a{
-      font-size: 30px;
-    }
-  }
-
-  /* @media screen and (max-width: 820px) {
-    #nav-titles a{
-      font-size: 30px;
-    }
-  } */

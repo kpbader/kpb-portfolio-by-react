@@ -29,53 +29,31 @@
     font-weight: lighter;
   }
   
-  @media screen and (max-width: 480px) {
-    #about {
-      /* padding-right: 100px; */
-      display: flex;
-    justify-content: center;
-    }
-
-    #about-container p {
-      font-size: 15px;
-      margin: 0px;
-    padding: 0px;
-    }
 
 
-    .selfie img{
-      margin: 5px;
-      height: 200px;
-      width: 160px;
-      /* margin: 30px; */
-    }
-    
-    #about-container{
-      width: 300px;
-      height: 700px;
-      display: flex;
-      flex-wrap: wrap;
-    justify-content: center;
 
-    }
-  }
+  /* @media screen and (max-width: 414px) and (max-height: 915px) {
 
-  @media screen and (max-width: 820px) {
+   
+
     .selfie img { 
-      height: 300px;
-      width: 235px;
+      height: 0px;
+      width: 0px;
       margin: 0px;
   }
 
   #about-container{
     display: flex;
     flex-wrap: wrap;
-    height: 900px;
+    height: 800px;
   }
 
   #about-container p {
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px;
     margin-top: 0px;
   }
 
-}
+} */
