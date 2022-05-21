@@ -9,20 +9,11 @@
 h3 {
   font-size: 30px;
   font-weight: normal;
-  text-align: center;
+  /* text-align: center; */
 }
 
-#form-slot-2 {
-  padding-right: 80px;
-  font-size: 22px;
-}
-
-#form-slot-3 {
-  padding-right: 25px;
-}
-
-button {
-  margin: 15px;
+label {
+  font-size: 20px;
 }
 
 #contact-form {
@@ -36,64 +27,75 @@ button {
   font-size: 30px;
   color: var(--tertiary-color);
   margin: 30px;
-  /* justify-content: center; */
 }
 
-.form-slot {
-  font-size: 25px;
+#form-slot-2 {
+  padding-right: 100px;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 375px) and (max-height: 667px) {
   #contact-form {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
-  #form-slot-3 label {
-    font-size: 20px;
+  #form-slot-2 {
+    padding-right: 0px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) and (max-height: 896px) {
+  
+}
+
+@media screen and (max-width: 280px) and (max-height: 653px){
+  #contact-form {
+    height: 450px;
+  }
+
+  #form-slot-2 {
+    padding-right: 0px;
+  }
+}
+
+ @media screen and (max-width: 414px) {
+#contact-container {
+  padding: 0px;
+}
+  h3 {
+    font-size: 25px;
+  }
+
   label {
     font-size: 15px;
   }
 
-  h3 {
-    padding: 20px;
-  }
- 
-  /* #contact-form {
-    border:
+  /* #form-slot-2 {
+    padding-right: 25px;
   } */
 
-  #form-slot-1 {
+} 
+
+@media screen and (max-width: 768px) {
+  /* #contact-container {
     padding: 0px;
   }
 
-  #form-slot-1 label {
-    font-size: 30px;
+  h3 {
+    padding: 10px;
+  }
+
+  #form-slot-1 {
+    font-size: 25px;
   }
 
   #form-slot-2 {
-    padding: 0px;
-  }
-
-  #form-slot-2 label {
-    font-size: 20px;
+    padding-right: 95px;
   }
 
   #form-slot-3 {
-    padding-left: 0px;
-  }
+    padding-right: 40px;
+  } */
 }
-
-@media screen and (max-width: 896px) {
-  #contact-form {
-    height: 300px;
-  }
-
-  #form-slot-3 {
-    padding-left: 0px;
-  }
-}
-
