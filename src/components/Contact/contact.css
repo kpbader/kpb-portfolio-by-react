@@ -29,73 +29,45 @@ label {
   margin: 30px;
 }
 
+#form-slot-1 {
+  padding-left: 10px;
+}
+
 #form-slot-2 {
-  padding-right: 100px;
+  padding-right: 90px;
 }
 
-@media screen and (max-width: 375px) and (max-height: 667px) {
-  #contact-form {
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+/* Extra small devices
+@media only screen and (max-width: 600px) {
+    #contact-form {
+      height: 400px; 
+    }
 
-  #form-slot-2 {
-    padding-right: 0px;
-  }
-}
+    #form-slot-1 {
+      padding-left: 0px;
+    }
+    
+    #form-slot-2 {
+      padding-right: 0px;
+    }
+} */
 
-@media screen and (max-width: 414px) and (max-height: 896px) {
-  
-}
+/* Portrait tablets and large phones, 600px + */
+/* @media only screen and (min-width: 600px) {
 
-@media screen and (max-width: 280px) and (max-height: 653px){
-  #contact-form {
-    height: 450px;
-  }
+} */
 
-  #form-slot-2 {
-    padding-right: 0px;
-  }
-}
+/* Landscape tablets, 768px + */
+/* @media only screen and (min-width: 768px) {
 
- @media screen and (max-width: 414px) {
-#contact-container {
-  padding: 0px;
-}
-  h3 {
-    font-size: 25px;
-  }
+} */
 
-  label {
-    font-size: 15px;
-  }
+/* Laptops and desktops, 992px + */
+/* @media only screen and (min-width: 992px) {
 
-  /* #form-slot-2 {
-    padding-right: 25px;
-  } */
+} */
 
-} 
+/* Large laptops and desktops, 1200px + */
+/* @media only screen and (min-width: 1200px) {
 
-@media screen and (max-width: 768px) {
-  /* #contact-container {
-    padding: 0px;
-  }
-
-  h3 {
-    padding: 10px;
-  }
-
-  #form-slot-1 {
-    font-size: 25px;
-  }
-
-  #form-slot-2 {
-    padding-right: 95px;
-  }
-
-  #form-slot-3 {
-    padding-right: 40px;
-  } */
-}
+} */

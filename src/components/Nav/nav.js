@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router"
+import './nav.css';
 
 
 function Nav() {

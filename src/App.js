@@ -1,8 +1,9 @@
+
 import './App.css'
-import './components/Home/home.css';
-import './components/Header/header.css';
-import './components/Nav/nav.css';
-import './components/Footer/footer.css';
+// import './components/Home/home.css';
+// import './components/Header/header.css';
+// import './components/Nav/nav.css';
+// import './components/Footer/footer.css';
 // import './components/Resume/resume.css';
 // import './components/About/about.css';
 

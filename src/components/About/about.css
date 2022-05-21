@@ -1,10 +1,4 @@
-  #About {
-    margin: 50px;
-    /* display: flex;
-    flex-wrap: wrap; */
-  }
-  
-  #about-container {
+ #about-container {
     display: inline-flex;
     justify-content: center;
     padding: 30px;
@@ -21,7 +15,7 @@
   }
   
   #about-container p {
-    position: relative;
+    position:relative;
     margin: 10px;
     margin-top: 80px;
     padding: 40px;
@@ -30,30 +24,22 @@
   }
   
 
-
-
-  /* @media screen and (max-width: 414px) and (max-height: 915px) {
-
-   
-
-    .selfie img { 
-      height: 0px;
-      width: 0px;
-      margin: 0px;
+  /* .example-enter {
+    opacity: 0.01;
   }
-
-  #about-container{
-    display: flex;
-    flex-wrap: wrap;
-    height: 800px;
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
   }
-
-  #about-container p {
-    font-size: 18px;
-    margin-top: 0px;
-    text-align: center;
-    padding: 0px;
-    margin-top: 0px;
+  
+  .example-leave {
+    opacity: 1;
   }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  } */
 
-} */
+ 

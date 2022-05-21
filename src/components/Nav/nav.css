@@ -32,10 +32,3 @@
   #nav-titles a:hover {
     color: var(--tertiary-color);
   }
-
-  
-  @media screen and (max-width: 912px) and (max-height: 1368px) {
-    #nav-titles a{
-      font-size: 20px;
-    }
-  }

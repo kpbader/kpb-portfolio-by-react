@@ -1,3 +1,5 @@
+import './footer.css'
+import '../../App.css'
 
 function footer(props) {
     return (
