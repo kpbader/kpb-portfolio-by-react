@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import emailjs from 'emailjs-com'
 import './contact.css';
 
 function Contact() {
@@ -7,7 +8,14 @@ const { name, email, message } = contactForm;
 
 const submitForm = (e) =>{
     e.preventDefault();
-    console.log('contact form', contactForm)
+    // console.log('contact form', contactForm)
+    emailjs.sendForm('service_dtjnzsb', 'contact_form', 'form', '71NYlxaRV1UENrt02')
+     .then((result) => {
+         console.log(result.text);
+     }, (error) => {
+         console.log(error.text);
+     });
+     e.target.reset()
 }
 
 const formChange = (e) => {
