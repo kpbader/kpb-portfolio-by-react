@@ -121,11 +121,11 @@
   }
 
   #contact-container #contact-form{
-    height: 400px;
+    height: 450px;
   }
 
   #contact-container #contact-form #form-slot-1 {
-    padding-left: 0px;
+    padding: 20px;
   }
   
   #contact-container #contact-form #form-slot-2 {
@@ -219,12 +219,9 @@
   }
 
   #contact-container #contact-form #form-slot-1 {
-    padding-left: 0px;
+    padding-left: 10px;
   }
   
-  #contact-container #contact-form #form-slot-2 {
-    padding-right: 0px;
-  }
 
 }
 
