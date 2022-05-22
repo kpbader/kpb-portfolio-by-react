@@ -18,13 +18,14 @@ function Contact() {
         setErrorMessage('');
       }
     } else {
+      console.log(e.target.value.length)
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required!`)
       } else {
         setErrorMessage('');
       }
     }
-    setContactForm({ ...contactForm, [e.target.name]: e.target.value });
+    
     if (!errorMessage) {
       setContactForm({ ...contactForm, [e.target.name]: e.target.value });
     }
@@ -33,15 +34,15 @@ function Contact() {
   const submitForm = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_dtjnzsb', 'contact_form', 'form', '71NYlxaRV1UENrt02')
+    if (!errorMessage && contactForm.name && contactForm.email && contactForm.message) {
+      emailjs.sendForm('service_dtjnzsb', 'contact_form', 'form', '71NYlxaRV1UENrt02')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
-    e.target.reset();
-    if (!errorMessage) {
       setErrorMessage(`${e.target.name} is required!`)
+      e.target.reset();
     } setContactForm({ name: '', email: '', message: '' });
   }
 
