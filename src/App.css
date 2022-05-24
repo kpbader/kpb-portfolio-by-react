@@ -121,15 +121,19 @@
   }
 
   #contact-container #contact-form{
-    height: 450px;
+    height: 520px;
   }
 
   #contact-container #contact-form #form-slot-1 {
-    padding: 20px;
+    padding: 35px;
   }
   
   #contact-container #contact-form #form-slot-2 {
-    padding-right: 0px;
+    padding: 20px;
+  }
+
+  #contact-container #contact-form #form-slot-3 {
+    padding: 20px;
   }
 
   footer div a{
@@ -139,7 +143,87 @@
 
 /* Portrait tablets and large phones, 600px + */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  #about #about-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    padding: 10px;
+  }
 
+  #about #about-container p {
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  #projects p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #kit .kit-image {
+    height: 250px;
+    width: 500px;
+  }
+
+  #note-taker .note-taker {
+    height: 250px;
+    width: 500px;
+  }
+  
+
+  #projects #note-taker a {
+    font-size: 22px;
+  }
+
+  #weather-app .weather {
+    height: 250px;
+    width: 500px;
+  }
+
+  #projects #weather-app a {
+    font-size: 22px;
+  }
+
+  #rapid-quiz .quiz {
+    height: 250px;
+    width: 500px;
+  }
+
+  #projects #rapid-quiz a {
+    font-size: 22px;
+  }
+
+  #workday .workday {
+    height: 250px;
+    width: 500px;
+  }
+
+  #projects #workday a {
+    font-size: 22px;
+  }
+
+
+  #password-generator .password {
+    height: 250px;
+    width: 500px;
+  }
+
+  #projects #password-generator a {
+    font-size: 22px;
+  }
+
+  #contact-container #contact-form{
+    height: 300px;
+  }
+
+  #contact-container #contact-form #form-slot-1 {
+    padding-left: 60px;
+  }
+
+  #contact-container #contact-form #form-slot-2 {
+    padding-right: 40px;
+  }
 }
 
 /* Landscape tablets, 768px + */
