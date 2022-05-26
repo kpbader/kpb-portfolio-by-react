@@ -37,6 +37,10 @@ label {
   padding-right: 90px;
 }
 
+#form-slot-3 {
+  padding-left: 10px;
+}
+
 /* Extra small devices
 @media only screen and (max-width: 600px) {
     #contact-form {

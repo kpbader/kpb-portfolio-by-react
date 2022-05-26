@@ -121,15 +121,15 @@
   }
 
   #contact-container #contact-form{
-    height: 520px;
+    height: 575px;
   }
 
   #contact-container #contact-form #form-slot-1 {
-    padding: 35px;
+    padding: 47px;
   }
   
   #contact-container #contact-form #form-slot-2 {
-    padding: 20px;
+    padding: 40px;
   }
 
   #contact-container #contact-form #form-slot-3 {
@@ -146,7 +146,7 @@
   #about #about-container {
     display: flex;
     flex-wrap: wrap;
-    height: 900px;
+    height: 925px;
     padding: 10px;
   }
 
@@ -214,16 +214,21 @@
   }
 
   #contact-container #contact-form{
-    height: 300px;
+    height: 385px;
   }
 
   #contact-container #contact-form #form-slot-1 {
     padding-left: 60px;
   }
-
+  
   #contact-container #contact-form #form-slot-2 {
     padding-right: 40px;
   }
+
+  #contact-container #contact-form #form-slot-3 {
+    padding: 20px;
+  }
+
 }
 
 /* Landscape tablets, 768px + */
@@ -299,7 +304,7 @@
   }
 
   #contact-container #contact-form{
-    height: 400px;
+    height: 300px;
   }
 
   #contact-container #contact-form #form-slot-1 {
