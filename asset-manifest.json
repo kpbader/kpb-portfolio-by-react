@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kpb-portfolio-by-react/static/css/main.b9ed666c.css",
+    "main.css": "/kpb-portfolio-by-react/static/css/main.d131e3ee.css",
     "main.js": "/kpb-portfolio-by-react/static/js/main.8c1f39d0.js",
     "static/js/787.858da438.chunk.js": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js",
     "static/media/black_white_selfie.png": "/kpb-portfolio-by-react/static/media/black_white_selfie.fca8c1702e15c1b47dd8.png",
@@ -12,12 +12,12 @@
     "static/media/password-generator-screenshot.png": "/kpb-portfolio-by-react/static/media/password-generator-screenshot.d2fb46bbded9b6549d54.png",
     "static/media/rapid-quiz-screenshot.png": "/kpb-portfolio-by-react/static/media/rapid-quiz-screenshot.e4fb20ce0c926b4f8085.png",
     "index.html": "/kpb-portfolio-by-react/index.html",
-    "main.b9ed666c.css.map": "/kpb-portfolio-by-react/static/css/main.b9ed666c.css.map",
+    "main.d131e3ee.css.map": "/kpb-portfolio-by-react/static/css/main.d131e3ee.css.map",
     "main.8c1f39d0.js.map": "/kpb-portfolio-by-react/static/js/main.8c1f39d0.js.map",
     "787.858da438.chunk.js.map": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9ed666c.css",
+    "static/css/main.d131e3ee.css",
     "static/js/main.8c1f39d0.js"
   ]
 }
