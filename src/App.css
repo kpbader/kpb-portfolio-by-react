@@ -48,7 +48,7 @@
   #about #about-container {
     display: flex;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 1025px;
     
   }
 
@@ -146,7 +146,7 @@
   #about #about-container {
     display: flex;
     flex-wrap: wrap;
-    height: 925px;
+    height: 950px;
     padding: 10px;
   }
 
