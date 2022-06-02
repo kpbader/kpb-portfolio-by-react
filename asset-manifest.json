@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/kpb-portfolio-by-react/static/css/main.dc5aed35.css",
-    "main.js": "/kpb-portfolio-by-react/static/js/main.8c1f39d0.js",
+    "main.css": "/kpb-portfolio-by-react/static/css/main.fd4dbf8b.css",
+    "main.js": "/kpb-portfolio-by-react/static/js/main.6daae772.js",
     "static/js/787.858da438.chunk.js": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js",
     "static/media/black_white_selfie.png": "/kpb-portfolio-by-react/static/media/black_white_selfie.fca8c1702e15c1b47dd8.png",
     "static/media/cityscape_LANY_web-dev-copy.png": "/kpb-portfolio-by-react/static/media/cityscape_LANY_web-dev-copy.6eb6805a19558f5cfbc5.png",
     "static/media/tell_me_the_weather.png": "/kpb-portfolio-by-react/static/media/tell_me_the_weather.8b103d327c28a6234c41.png",
     "static/media/kit_screenshot_final.png": "/kpb-portfolio-by-react/static/media/kit_screenshot_final.15558037cf5abc83ae67.png",
     "static/media/workDaySched_screenshot.png": "/kpb-portfolio-by-react/static/media/workDaySched_screenshot.6e274e3d2eee0bc59ed1.png",
+    "static/media/draw-the-line.png": "/kpb-portfolio-by-react/static/media/draw-the-line.366e8229ba280251a9ab.png",
     "static/media/note-taker-screenshot.png": "/kpb-portfolio-by-react/static/media/note-taker-screenshot.672b06bd35d737db8526.png",
     "static/media/password-generator-screenshot.png": "/kpb-portfolio-by-react/static/media/password-generator-screenshot.d2fb46bbded9b6549d54.png",
     "static/media/rapid-quiz-screenshot.png": "/kpb-portfolio-by-react/static/media/rapid-quiz-screenshot.e4fb20ce0c926b4f8085.png",
     "index.html": "/kpb-portfolio-by-react/index.html",
-    "main.dc5aed35.css.map": "/kpb-portfolio-by-react/static/css/main.dc5aed35.css.map",
-    "main.8c1f39d0.js.map": "/kpb-portfolio-by-react/static/js/main.8c1f39d0.js.map",
+    "main.fd4dbf8b.css.map": "/kpb-portfolio-by-react/static/css/main.fd4dbf8b.css.map",
+    "main.6daae772.js.map": "/kpb-portfolio-by-react/static/js/main.6daae772.js.map",
     "787.858da438.chunk.js.map": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc5aed35.css",
-    "static/js/main.8c1f39d0.js"
+    "static/css/main.fd4dbf8b.css",
+    "static/js/main.6daae772.js"
   ]
 }
