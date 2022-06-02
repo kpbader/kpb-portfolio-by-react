@@ -1,4 +1,5 @@
 import kit from '../../assets/images/kit_screenshot_final.png'
+import draw from '../../assets/images/draw-the-line.png';
 import notetaker from '../../assets/images/note-taker-screenshot.png'
 import weather from '../../assets/images/tell_me_the_weather.png'
 import quiz from '../../assets/images/rapid-quiz-screenshot.png'
@@ -10,6 +11,12 @@ function portfolio(props) {
     return (
         <section id="projects">
             <p>For backend/CLI only applications, please visit my Github profile below</p>
+            <div id="draw-the-line">
+                <h3>Draw The Line</h3>
+                <img src={draw} className="dtl-image" alt="Screenshot of group social media project" />
+                <a href="https://draw-the-line-repo.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
+                <a href="https://github.com/Abarragan89/draw-the-line" target="_blank" rel="noopener noreferrer">Github repository</a>
+            </div>
             <div id="kit">
                 <h3>Keep In Touch</h3>
                 <img src={kit} className="kit-image" alt="Screenshot of group social media project" />

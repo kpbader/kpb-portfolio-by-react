@@ -16,6 +16,49 @@
 }
 
 /* PROJECT START */
+
+#draw-the-line h3 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#draw-the-line  {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1300x;
+  width: 1345px;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+#draw-the-line a {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#draw-the-line  a:hover {
+  color: var(--tertiary-color);
+}
+.dtl-image {
+  height: 600px;
+  width: 1200px;
+  border-radius: 15px;
+}
+
+/* END */
+
+/* PROJECT START */
 #kit h3 {
   font-size: 28px;
   font-weight: normal;

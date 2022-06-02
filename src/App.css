@@ -1,23 +1,22 @@
-
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 5px;
-  }
-  
-  :root {
-    --primary-color: white ;
-    --secondary-color:grey; 
-    --tertiary-color: silver; 
-    --fourth-color: black;
-  }
-  
-  body {
-    color: var(--secondary-color);
-    font-family: Copperplate, Impact, sans-serif;
-  }
-  
-  /* .example-enter {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 5px;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: grey;
+  --tertiary-color: silver;
+  --fourth-color: black;
+}
+
+body {
+  color: var(--secondary-color);
+  font-family: Copperplate, Impact, sans-serif;
+}
+
+/* .example-enter {
     opacity: 0.01;
   }
   
@@ -34,14 +33,14 @@
     opacity: 0.01;
     transition: opacity 300ms ease-in;
   } */
-  
-  /* Extra small devices */
-  @media only screen and (min-width: 320px) and (max-width: 479px) {
-  .header { 
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .header {
     font-size: 30px;
   }
 
-  #nav-titles #title-list .title  {
+  #nav-titles #title-list .title {
     font-size: 22px;
   }
 
@@ -49,7 +48,6 @@
     display: flex;
     flex-wrap: wrap;
     height: 1050px;
-    
   }
 
   #about #about-container .selfie img {
@@ -67,6 +65,11 @@
   #projects p {
     font-size: 20px;
     text-align: center;
+  }
+
+  #draw-the-line .dtl-image {
+    height: 150px;
+    width: 300px;
   }
 
   #kit .kit-image {
@@ -110,7 +113,6 @@
     font-size: 22px;
   }
 
-
   #password-generator .password {
     height: 150px;
     width: 300px;
@@ -120,14 +122,14 @@
     font-size: 22px;
   }
 
-  #contact-container #contact-form{
+  #contact-container #contact-form {
     height: 575px;
   }
 
   #contact-container #contact-form #form-slot-1 {
     padding: 47px;
   }
-  
+
   #contact-container #contact-form #form-slot-2 {
     padding: 40px;
   }
@@ -136,7 +138,7 @@
     padding: 20px;
   }
 
-  footer div a{
+  footer div a {
     font-size: 20px;
   }
 }
@@ -161,6 +163,11 @@
     text-align: center;
   }
 
+  #draw-the-line .dtl-image {
+    height: 250px;
+    width: 500px;
+  }
+
   #kit .kit-image {
     height: 250px;
     width: 500px;
@@ -170,7 +177,6 @@
     height: 250px;
     width: 500px;
   }
-  
 
   #projects #note-taker a {
     font-size: 22px;
@@ -203,7 +209,6 @@
     font-size: 22px;
   }
 
-
   #password-generator .password {
     height: 250px;
     width: 500px;
@@ -213,14 +218,14 @@
     font-size: 22px;
   }
 
-  #contact-container #contact-form{
+  #contact-container #contact-form {
     height: 385px;
   }
 
   #contact-container #contact-form #form-slot-1 {
     padding-left: 60px;
   }
-  
+
   #contact-container #contact-form #form-slot-2 {
     padding-right: 40px;
   }
@@ -228,7 +233,6 @@
   #contact-container #contact-form #form-slot-3 {
     padding: 20px;
   }
-
 }
 
 /* Landscape tablets, 768px + */
@@ -251,6 +255,11 @@
     text-align: center;
   }
 
+  #draw-the-line .dtl-image {
+    height: 250px;
+    width: 500px;
+  }
+
   #kit .kit-image {
     height: 250px;
     width: 500px;
@@ -260,7 +269,6 @@
     height: 250px;
     width: 500px;
   }
-  
 
   #projects #note-taker a {
     font-size: 22px;
@@ -293,7 +301,6 @@
     font-size: 22px;
   }
 
-
   #password-generator .password {
     height: 250px;
     width: 500px;
@@ -303,19 +310,23 @@
     font-size: 22px;
   }
 
-  #contact-container #contact-form{
+  #contact-container #contact-form {
     height: 300px;
   }
 
   #contact-container #contact-form #form-slot-1 {
     padding-left: 10px;
   }
-  
-
 }
 
 /* Laptops and desktops, 992px + */
 @media only screen and (min-width: 980px) and (max-width: 1024px) {
+
+  #draw-the-line .dtl-image {
+    height: 350px;
+    width: 700px;
+  }
+
   #kit .kit-image {
     height: 350px;
     width: 700px;
@@ -340,7 +351,6 @@
     height: 300px;
     width: 600px;
   }
-
 
   #password-generator .password {
     height: 250px;
