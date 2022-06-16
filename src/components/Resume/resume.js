@@ -1,12 +1,12 @@
-import './resume.css'
+// import './resume.css'
 
-function Resume() {
+// function Resume() {
 
-    return (
-        <div id="resume">
-            <a href="https://drive.google.com/file/d/1CaexgmFdh3urSBDcrvxEVSO9cRZvARSp/view?usp=sharing" target="_blank" rel="noopener noreferrer">View / Download Resume</a>
-        </div>
-    )
-}
+//     return (
+//         <div id="resume">
+//             <a href="https://drive.google.com/file/d/1CaexgmFdh3urSBDcrvxEVSO9cRZvARSp/view?usp=sharing" target="_blank" rel="noopener noreferrer">View / Download Resume</a>
+//         </div>
+//     )
+// }
 
-export default Resume;
+// export default Resume;
