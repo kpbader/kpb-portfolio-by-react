@@ -51,18 +51,18 @@ function Contact() {
       <form id="contact-form" ref={form} onSubmit={submitForm}>
         <h3>Contact</h3>
         <div id="form-slot-1">
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Name</label>
           <input type="text" defaultValue={name} onBlur={formChange} name="name" />
         </div>
         <div id="form-slot-2">
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email</label>
           <input type="email" defaultValue={email} name="email" onBlur={formChange} />
         </div>
         <div id="form-slot-3">
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Message</label>
           <textarea name="message" defaultValue={message} onBlur={formChange} rows="5" />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="contact-submit-btn">Submit</button>
       </form>
     </section>
   )

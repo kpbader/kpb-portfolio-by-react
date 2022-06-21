@@ -124,18 +124,19 @@ body {
 
   #contact-container #contact-form {
     height: 575px;
+    width: 350px;
   }
 
   #contact-container #contact-form #form-slot-1 {
-    padding: 47px;
+    width: 200px;
   }
 
   #contact-container #contact-form #form-slot-2 {
-    padding: 40px;
+    width: 200px;
   }
 
   #contact-container #contact-form #form-slot-3 {
-    padding: 20px;
+    width: 200px;
   }
 
   footer div a {
@@ -219,19 +220,20 @@ body {
   }
 
   #contact-container #contact-form {
-    height: 385px;
+    height: 575px;
+    /* width: 500px; */
   }
 
   #contact-container #contact-form #form-slot-1 {
-    padding-left: 60px;
+    width: 250px;
   }
 
   #contact-container #contact-form #form-slot-2 {
-    padding-right: 40px;
+    width: 250px;
   }
 
   #contact-container #contact-form #form-slot-3 {
-    padding: 20px;
+    width: 300px;
   }
 }
 
@@ -310,13 +312,22 @@ body {
     font-size: 22px;
   }
 
-  #contact-container #contact-form {
-    height: 300px;
+  /* #contact-container #contact-form {
+    height: 700px;
+    width: 350px;
+  } */
+
+  /* #contact-container #contact-form #form-slot-1 {
+    width: 200px;
   }
 
-  #contact-container #contact-form #form-slot-1 {
-    padding-left: 10px;
-  }
+  #contact-container #contact-form #form-slot-2 {
+    width: 200px;
+  } */
+
+  /* #contact-container #contact-form #form-slot-3 {
+    width: 400px;
+  } */
 }
 
 /* Laptops and desktops, 992px + */

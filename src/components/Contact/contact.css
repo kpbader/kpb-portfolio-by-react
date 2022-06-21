@@ -7,20 +7,27 @@
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 35px !important;
   font-weight: normal;
+  color: grey;
+  margin: 20px;
   /* text-align: center; */
 }
 
 label {
-  font-size: 20px;
+  font-size: 25px;
+  color: grey;
 }
 
 #contact-form {
-  border: 2px solid var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid silver;
   border-radius: 10px;
-  height: 300px;
-  width: 600px;
+  height: 600px;
+  width: 500px;
   text-align: center;
   font-style: normal;
   font-weight: lighter;
@@ -30,48 +37,44 @@ label {
 }
 
 #form-slot-1 {
-  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  /* align-items: center; */
+  padding: 20px;
 }
 
 #form-slot-2 {
-  padding-right: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  /* align-items: center; */
+  padding: 20px;
 }
 
 #form-slot-3 {
-  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  /* align-items: center; */
+  padding: 20px;
 }
 
-/* Extra small devices
-@media only screen and (max-width: 600px) {
-    #contact-form {
-      height: 400px; 
-    }
+.contact-submit-btn {
+  height: 40px;
+  width: 100px;
+  font-size: 22px;
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+  border-radius:5px;
+  margin: 20px;
+  transition: 0.2s ease-in;
+  font-family: Copperplate, Impact, sans-serif;
+}
 
-    #form-slot-1 {
-      padding-left: 0px;
-    }
-    
-    #form-slot-2 {
-      padding-right: 0px;
-    }
-} */
+.contact-submit-btn:hover {
+  cursor: pointer;
+  color: silver;
+}
 
-/* Portrait tablets and large phones, 600px + */
-/* @media only screen and (min-width: 600px) {
-
-} */
-
-/* Landscape tablets, 768px + */
-/* @media only screen and (min-width: 768px) {
-
-} */
-
-/* Laptops and desktops, 992px + */
-/* @media only screen and (min-width: 992px) {
-
-} */
-
-/* Large laptops and desktops, 1200px + */
-/* @media only screen and (min-width: 1200px) {
-
-} */
