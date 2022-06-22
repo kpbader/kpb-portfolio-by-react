@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kpb-portfolio-by-react/static/css/main.dc143ba1.css",
-    "main.js": "/kpb-portfolio-by-react/static/js/main.d9f928c5.js",
+    "main.css": "/kpb-portfolio-by-react/static/css/main.5383f4f4.css",
+    "main.js": "/kpb-portfolio-by-react/static/js/main.2ed2fb03.js",
     "static/js/787.858da438.chunk.js": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js",
     "static/media/black_white_selfie.png": "/kpb-portfolio-by-react/static/media/black_white_selfie.fca8c1702e15c1b47dd8.png",
     "static/media/cityscape_LANY_web-dev-copy.png": "/kpb-portfolio-by-react/static/media/cityscape_LANY_web-dev-copy.6eb6805a19558f5cfbc5.png",
@@ -13,12 +13,12 @@
     "static/media/password-generator-screenshot.png": "/kpb-portfolio-by-react/static/media/password-generator-screenshot.d2fb46bbded9b6549d54.png",
     "static/media/rapid-quiz-screenshot.png": "/kpb-portfolio-by-react/static/media/rapid-quiz-screenshot.e4fb20ce0c926b4f8085.png",
     "index.html": "/kpb-portfolio-by-react/index.html",
-    "main.dc143ba1.css.map": "/kpb-portfolio-by-react/static/css/main.dc143ba1.css.map",
-    "main.d9f928c5.js.map": "/kpb-portfolio-by-react/static/js/main.d9f928c5.js.map",
+    "main.5383f4f4.css.map": "/kpb-portfolio-by-react/static/css/main.5383f4f4.css.map",
+    "main.2ed2fb03.js.map": "/kpb-portfolio-by-react/static/js/main.2ed2fb03.js.map",
     "787.858da438.chunk.js.map": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc143ba1.css",
-    "static/js/main.d9f928c5.js"
+    "static/css/main.5383f4f4.css",
+    "static/js/main.2ed2fb03.js"
   ]
 }
