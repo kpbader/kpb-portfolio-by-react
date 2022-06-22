@@ -103,7 +103,7 @@
 #note-taker {
   display: flex;
   flex-wrap: wrap;
-  height: 600x;
+  height: 625px;
   width: 650px;
   margin: 15px;
   padding: 15px;
@@ -143,7 +143,7 @@
 #weather-app {
   display: flex;
   flex-wrap: wrap;
-  height: 600px;
+  height: 625px;
   width: 650px;
   margin: 15px;
   padding: 15px;
@@ -175,7 +175,7 @@
 
 .weather {
   height: 350px;
-  width: 700px;
+  width: 575px;
   border-radius: 15px;
 }
 /* END */
@@ -185,7 +185,7 @@
 #rapid-quiz {
   display: flex;
   flex-wrap: wrap;
-  height: 600px;
+  height: 625px;
   width: 650px;
   margin: 15px;
   padding: 15px;
@@ -217,7 +217,7 @@
 
 .quiz {
   height: 350px;
-  width: 700px;
+  width: 575px;
   border-radius: 15px;
 }
 /* END */
@@ -226,7 +226,7 @@
 #workday {
   display: flex;
   flex-wrap: wrap;
-  height: 600px;
+  height: 625px;
   width: 650px;
   margin: 15px;
   padding: 15px;
@@ -267,7 +267,7 @@
 #password-generator {
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
+  height: 625px;
   width: 650px;
   margin: 15px;
   padding: 15px;
