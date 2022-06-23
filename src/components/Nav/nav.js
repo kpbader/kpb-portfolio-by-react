@@ -24,7 +24,7 @@ function Nav() {
                 <Link to="/About" style={activeTab("/About")} className="title">About</Link>
                 <Link to="/Projects" style={activeTab("/Projects")} className="title">Projects</Link>
                 
-                <a href="https://drive.google.com/file/d/124XKDiXb4M1HW29_dW7BMFzrlORgWMWr/view" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1vYb40_bSa_p_XdIWE8XY6Y_B1RfsDlgn/view?usp=sharing" target="_blank" rel="noreferrer">
                     Resume
                 </a>
                 <Link to="/Contact" style={activeTab("/Contact")} className="title">Contact</Link>
