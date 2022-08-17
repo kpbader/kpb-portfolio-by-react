@@ -5,12 +5,19 @@ import weather from '../../assets/images/tell_me_the_weather.png'
 import quiz from '../../assets/images/rapid-quiz-screenshot.png'
 import workday from '../../assets/images/workDaySched_screenshot.png'
 import passwordgenerator from '../../assets/images/password-generator-screenshot.png'
+import artDesign from "../../assets/images/portfolio-screenshot.png";
 import './projects.css';
 
 function portfolio(props) {
     return (
         <section id="projects">
             <p>For backend/CLI only applications, please visit my Github profile below</p>
+            <div id="art-design">
+                <h3>Art and Design Portfolio</h3>
+                <img src={artDesign} className="artD-image" alt="Screenshot of art portfolio" />
+                <a href="https://kpbader.github.io/art-and-design-portfolio" target="_blank" rel="noopener noreferrer">Deployed Application</a>
+                <a href="https://github.com/kpbader/art-and-design-portfolio" target="_blank" rel="noopener noreferrer">Github Repository</a>
+            </div>
             <div id="draw-the-line">
                 <h3>Draw The Line</h3>
                 <img src={draw} className="dtl-image" alt="Screenshot of group social media project" />
@@ -32,7 +39,7 @@ function portfolio(props) {
             <div id="weather-app">
                 <h3>Tell Me The Weather</h3>
                 <img src={weather} className="weather" alt="Screenshot of a weather app using open weather api" />
-                <a href="https://github.com/kpbader/tell-me-the-weather" target="_blank" rel="noopener noreferrer">Deployed Application</a>
+                <a href="https://kpbader.github.io/tell-me-the-weather/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <a href="https://github.com/kpbader/tell-me-the-weather" target="_blank" rel="noopener noreferrer">Github repository</a>
             </div>
             <div id="rapid-quiz">

@@ -71,6 +71,11 @@ body {
     text-align: center;
   }
 
+  #art-design .artD-image {
+    height: 150px;
+    width: 300px;
+  }
+
   #draw-the-line .dtl-image {
     height: 150px;
     width: 300px;
@@ -168,6 +173,11 @@ body {
     text-align: center;
   }
 
+  #art-design .artD-image {
+    height: 250px;
+    width: 500px;
+  }
+
   #draw-the-line .dtl-image {
     height: 250px;
     width: 500px;
@@ -261,6 +271,11 @@ body {
     text-align: center;
   }
 
+  #art-design .artD-image {
+    height: 250px;
+    width: 500px;
+  }
+
   #draw-the-line .dtl-image {
     height: 250px;
     width: 500px;
@@ -336,6 +351,11 @@ body {
 
 /* Laptops and desktops, 992px + */
 @media only screen and (min-width: 980px) and (max-width: 1024px) {
+  
+  #art-design .artD-image {
+    height: 250px;
+    width: 500px;
+  }
 
   #draw-the-line .dtl-image {
     height: 350px;

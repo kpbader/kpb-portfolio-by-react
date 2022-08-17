@@ -17,6 +17,46 @@
 
 /* PROJECT START */
 
+#art-design h3{
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#art-design {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1325x;
+  width: 1345px;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+#art-design a{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#art-design a:hover{
+  color: var(--tertiary-color);
+}
+
+.artD-image{
+  height: 600px;
+  width: 1200px;
+  border-radius: 15px;
+}
+
 #draw-the-line h3 {
   font-size: 28px;
   font-weight: normal;
@@ -47,7 +87,7 @@
   text-decoration: none;
 }
 
-#draw-the-line  a:hover {
+#draw-the-line a:hover {
   color: var(--tertiary-color);
 }
 .dtl-image {
