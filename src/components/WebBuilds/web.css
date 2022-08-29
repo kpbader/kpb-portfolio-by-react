@@ -1,0 +1,144 @@
+#web-builds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+
+#web-builds p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/* PROJECT START */
+
+#sunsetRehab h3 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#sunsetRehab {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1325x;
+  width: 1345px;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.sr-img {
+  height: 600px;
+  width: 1200px;
+  border-radius: 15px;
+}
+
+#sunsetRehab a {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#sunsetRehab a:hover {
+  color: var(--tertiary-color);
+}
+
+/* PROJECT END */
+
+/* PROJECT START */
+
+#transitions h3 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#transitions {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1325x;
+  width: 1345px;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.tft-img {
+  height: 600px;
+  width: 1200px;
+  border-radius: 15px;
+}
+
+#transitions a {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#transitions a:hover {
+  color: var(--tertiary-color);
+}
+
+/* PROJECT END */
+
+/* PROJECT START */
+
+#firstStep h3 {
+    font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#firstStep {
+    display: flex;
+  flex-wrap: wrap;
+  height: 1325x;
+  width: 1345px;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.fs-img {
+    height: 600px;
+  width: 1200px;
+  border-radius: 15px;
+}
+
+#firstStep a {
+    display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#firstStep a:hover {
+    color: var(--tertiary-color);
+}
+
+/* PROJECT END */
