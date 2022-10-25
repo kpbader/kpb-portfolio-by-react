@@ -23,7 +23,6 @@ function Nav() {
                 <Link to="/kpb-portfolio-by-react" style={activeTab("/kpb-portfolio-by-react")} className="title">Home</Link>
                 <Link to="/About" style={activeTab("/About")} className="title">About</Link>
                 <Link to="/Projects" style={activeTab("/Projects")} className="title">Projects</Link>
-                <Link to="/WebBuilds" style={activeTab("/WebBuilds")} className="title">Web (via builders)</Link>
                 <a href="https://drive.google.com/file/d/1vYb40_bSa_p_XdIWE8XY6Y_B1RfsDlgn/view?usp=sharing" target="_blank" rel="noreferrer">
                     Resume
                 </a>
