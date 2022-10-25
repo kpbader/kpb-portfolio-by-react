@@ -1,14 +1,11 @@
 {
   "files": {
-    "main.css": "/kpb-portfolio-by-react/static/css/main.9652c85d.css",
-    "main.js": "/kpb-portfolio-by-react/static/js/main.ffe5f4f0.js",
+    "main.css": "/kpb-portfolio-by-react/static/css/main.d70f7185.css",
+    "main.js": "/kpb-portfolio-by-react/static/js/main.e949540d.js",
     "static/js/787.858da438.chunk.js": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js",
     "static/media/black_white_selfie.png": "/kpb-portfolio-by-react/static/media/black_white_selfie.fca8c1702e15c1b47dd8.png",
-    "static/media/transitions.png": "/kpb-portfolio-by-react/static/media/transitions.5bd9fa2cd4cdac8ebc4c.png",
     "static/media/cityscape_LANY_web-dev-copy.png": "/kpb-portfolio-by-react/static/media/cityscape_LANY_web-dev-copy.6eb6805a19558f5cfbc5.png",
-    "static/media/firstStep.png": "/kpb-portfolio-by-react/static/media/firstStep.bf76b7ea9d0e96f1c2cb.png",
     "static/media/portfolio-screenshot.png": "/kpb-portfolio-by-react/static/media/portfolio-screenshot.7754c3019782196b3fc6.png",
-    "static/media/sunset-rehab.png": "/kpb-portfolio-by-react/static/media/sunset-rehab.dfeb2761951a290ada26.png",
     "static/media/tell_me_the_weather.png": "/kpb-portfolio-by-react/static/media/tell_me_the_weather.8b103d327c28a6234c41.png",
     "static/media/kit_screenshot_final.png": "/kpb-portfolio-by-react/static/media/kit_screenshot_final.15558037cf5abc83ae67.png",
     "static/media/workDaySched_screenshot.png": "/kpb-portfolio-by-react/static/media/workDaySched_screenshot.6e274e3d2eee0bc59ed1.png",
@@ -17,12 +14,12 @@
     "static/media/password-generator-screenshot.png": "/kpb-portfolio-by-react/static/media/password-generator-screenshot.d2fb46bbded9b6549d54.png",
     "static/media/rapid-quiz-screenshot.png": "/kpb-portfolio-by-react/static/media/rapid-quiz-screenshot.e4fb20ce0c926b4f8085.png",
     "index.html": "/kpb-portfolio-by-react/index.html",
-    "main.9652c85d.css.map": "/kpb-portfolio-by-react/static/css/main.9652c85d.css.map",
-    "main.ffe5f4f0.js.map": "/kpb-portfolio-by-react/static/js/main.ffe5f4f0.js.map",
+    "main.d70f7185.css.map": "/kpb-portfolio-by-react/static/css/main.d70f7185.css.map",
+    "main.e949540d.js.map": "/kpb-portfolio-by-react/static/js/main.e949540d.js.map",
     "787.858da438.chunk.js.map": "/kpb-portfolio-by-react/static/js/787.858da438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9652c85d.css",
-    "static/js/main.ffe5f4f0.js"
+    "static/css/main.d70f7185.css",
+    "static/js/main.e949540d.js"
   ]
 }
