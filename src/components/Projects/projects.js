@@ -6,6 +6,7 @@ import quiz from '../../assets/images/rapid-quiz-screenshot.png'
 import workday from '../../assets/images/workDaySched_screenshot.png'
 import passwordgenerator from '../../assets/images/password-generator-screenshot.png'
 import artDesign from "../../assets/images/portfolio-screenshot.png";
+import rodeo from "../../assets/images/rodeo-recovery.mp4";
 import './projects.css';
 import Fade from 'react-reveal/Fade';
 
@@ -14,6 +15,15 @@ function portfolio(props) {
         <section id="projects">
             <Fade>
                 <p>For backend/CLI only applications, please visit my Github profile below</p>
+            </Fade>
+            <Fade up>
+                <div id="rodeo-recovery">
+                    <h3>Rodeo Recovery</h3>
+                    <video autoPlay muted loop id="rodeo-recovery-video">
+                        <source src={rodeo} type="video/mp4" />
+                    </video>
+                    <a href="https://rodeorecovery.com/" target="_blank" rel="noopener noreferrer">Deployed Link</a>
+                </div>
             </Fade>
             <Fade up>
                 <div id="art-design">

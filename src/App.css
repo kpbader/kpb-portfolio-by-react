@@ -71,24 +71,13 @@ body {
     text-align: center;
   }
 
-  #web-builds p {
-    font-size: 20px;
+  #rodeo-recovery #rodeo-recovery-video {
+    height: 150px;
+    width: 300px;
+  }
+
+  #rodeo-recovery h3 {
     text-align: center;
-  }
-
-  #web-builds .sr-img {
-    height: 150px;
-    width: 300px;
-  }
-
-  #web-builds .tft-img {
-    height: 150px;
-    width: 300px;
-  }
-
-  #web-builds .fs-img {
-    height: 150px;
-    width: 300px;
   }
 
   #art-design .artD-image {
@@ -193,25 +182,15 @@ body {
     text-align: center;
   }
 
-  #web-builds p {
-    font-size: 20px;
+  #rodeo-recovery #rodeo-recovery-video {
+    height: 250px;
+    width: 500px;
+  }
+
+  #rodeo-recovery h3 {
     text-align: center;
   }
 
-  #web-builds .sr-img {
-    height: 250px;
-    width: 500px;
-  }
-
-  #web-builds .tft-img {
-    height: 250px;
-    width: 500px;
-  }
-
-  #web-builds .fs-img {
-    height: 250px;
-    width: 500px;
-  }
 
   #art-design .artD-image {
     height: 250px;
@@ -311,24 +290,13 @@ body {
     text-align: center;
   }
 
-  #web-builds p {
-    font-size: 20px;
+  #rodeo-recovery #rodeo-recovery-video {
+    height: 250px;
+    width: 500px;
+  }
+
+  #rodeo-recovery h3 {
     text-align: center;
-  }
-
-  #web-builds .sr-img {
-    height: 250px;
-    width: 500px;
-  }
-
-  #web-builds .tft-img {
-    height: 250px;
-    width: 500px;
-  }
-
-  #web-builds .fs-img {
-    height: 250px;
-    width: 500px;
   }
 
   #art-design .artD-image {
@@ -412,19 +380,13 @@ body {
 /* Laptops and desktops, 992px + */
 @media only screen and (min-width: 980px) and (max-width: 1024px) {
 
-  #web-builds .sr-img {
+  #rodeo-recovery #rodeo-recovery-video {
     height: 250px;
     width: 500px;
   }
 
-  #web-builds .tft-img {
-    height: 250px;
-    width: 500px;
-  }
-
-  #web-builds .fs-img {
-    height: 250px;
-    width: 500px;
+  #rodeo-recovery h3 {
+    text-align: center;
   }
   
   #art-design .artD-image {

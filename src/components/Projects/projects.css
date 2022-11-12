@@ -57,6 +57,40 @@
   border-radius: 15px;
 }
 
+#rodeo-recovery {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1325x;
+  width: 1345px;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+#rodeo-recovery-video {
+  height: 600px;
+  width: 1200px;
+  border-radius: 15px;
+}
+
+#rodeo-recovery a {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 20px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#rodeo-recovery a:hover {
+  color: var(--tertiary-color);
+} 
+
 #draw-the-line h3 {
   font-size: 28px;
   font-weight: normal;
