@@ -7,6 +7,7 @@ import workday from '../../assets/images/workDaySched_screenshot.png'
 import passwordgenerator from '../../assets/images/password-generator-screenshot.png'
 import artDesign from "../../assets/images/portfolio-screenshot.png";
 import rodeo from "../../assets/images/rodeo-recovery.mp4";
+import stripe from '../../assets/images/stripe-app.png';
 import './projects.css';
 import Fade from 'react-reveal/Fade';
 
@@ -15,6 +16,14 @@ function portfolio(props) {
         <section id="projects">
             <Fade>
                 <p>For backend/CLI only applications, please visit my Github profile below</p>
+            </Fade>
+            <Fade up>
+                <div id="stripe-app">
+                    <h3>Stripe App</h3>
+                    <img src={stripe} className="stripe-image" alt="Screenshot of my Stripe App" />
+                    <a href="https://my-stripe-app-1.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed App</a>
+                    <a href="https://github.com/kpbader/my-stripe-app" target="_blank" rel="noopener noreferrer">Github Repository</a>
+                </div>
             </Fade>
             <Fade up>
                 <div id="rodeo-recovery">

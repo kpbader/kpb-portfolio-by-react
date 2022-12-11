@@ -80,6 +80,11 @@ body {
     text-align: center;
   }
 
+  #stripe-app .stripe-image {
+    height: 150px;
+    width: 300px;
+  }
+
   #art-design .artD-image {
     height: 150px;
     width: 300px;
@@ -182,6 +187,11 @@ body {
     text-align: center;
   }
 
+  #stripe-app .stripe-image {
+    height: 250px;
+    width: 500px;
+  }
+
   #rodeo-recovery #rodeo-recovery-video {
     height: 250px;
     width: 500px;
@@ -272,6 +282,11 @@ body {
 
 /* Landscape tablets, 768px + */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
+
+  #nav-titles #title-list a {
+    font-size: 25px;
+  }
+
   #about #about-container {
     display: flex;
     flex-wrap: wrap;
@@ -297,6 +312,11 @@ body {
 
   #rodeo-recovery h3 {
     text-align: center;
+  }
+
+  #stripe-app .stripe-image {
+    height: 250px;
+    width: 500px;
   }
 
   #art-design .artD-image {
@@ -390,6 +410,11 @@ body {
   }
   
   #art-design .artD-image {
+    height: 250px;
+    width: 500px;
+  }
+
+  #stripe-app .stripe-image {
     height: 250px;
     width: 500px;
   }
