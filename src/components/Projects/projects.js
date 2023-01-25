@@ -1,12 +1,12 @@
 import kit from '../../assets/images/kit_screenshot_final.png'
-import draw from '../../assets/images/draw-the-line.png';
+// import draw from '../../assets/images/draw-the-line.png';
 import notetaker from '../../assets/images/note-taker-screenshot.png'
 import weather from '../../assets/images/tell_me_the_weather.png'
 import quiz from '../../assets/images/rapid-quiz-screenshot.png'
 import workday from '../../assets/images/workDaySched_screenshot.png'
 import passwordgenerator from '../../assets/images/password-generator-screenshot.png'
 import artDesign from "../../assets/images/portfolio-screenshot.png";
-import rodeo from "../../assets/images/rodeo-recovery.mp4";
+import beachStreet from '../../assets/images/beach-street-intro_AdobeExpress.mp4';
 import stripe from '../../assets/images/stripe-app.png';
 import './projects.css';
 import Fade from 'react-reveal/Fade';
@@ -26,12 +26,13 @@ function portfolio(props) {
                 </div>
             </Fade>
             <Fade up>
-                <div id="rodeo-recovery">
-                    <h3>Rodeo Recovery</h3>
-                    <video autoPlay muted loop id="rodeo-recovery-video">
-                        <source src={rodeo} type="video/mp4" />
+                <div id="beach-street">
+                    <h3>Beach Street Rehab</h3>
+                    <video autoPlay muted loop id="beach-street-video">
+                        <source src={beachStreet} type="video/mp4" />
                     </video>
-                    <a href="https://rodeorecovery.com/" target="_blank" rel="noopener noreferrer">Deployed Link</a>
+                    <a href="https://kpbader.github.io/beach-street-rehab/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
+                    <a href="https://github.com/kpbader/beach-street-rehab" target="_blank" rel="noopener noreferrer">Github Repository</a>
                 </div>
             </Fade>
             <Fade up>
@@ -42,14 +43,14 @@ function portfolio(props) {
                     <a href="https://github.com/kpbader/art-and-design-portfolio" target="_blank" rel="noopener noreferrer">Github Repository</a>
                 </div>
             </Fade>
-            <Fade up>
+            {/* <Fade up>
                 <div id="draw-the-line">
                     <h3>Draw The Line</h3>
                     <img src={draw} className="dtl-image" alt="Screenshot of group social media project" />
                     <a href="https://draw-the-line-repo.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Application</a>
                     <a href="https://github.com/Abarragan89/draw-the-line" target="_blank" rel="noopener noreferrer">Github repository</a>
                 </div>
-            </Fade>
+            </Fade> */}
             <Fade up>
                 <div id="kit">
                     <h3>Keep In Touch</h3>

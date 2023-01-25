@@ -49,6 +49,7 @@
 
 #stripe-app a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 
 .stripe-image {
@@ -89,6 +90,7 @@
 
 #art-design a:hover{
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 
 .artD-image{
@@ -97,7 +99,7 @@
   border-radius: 15px;
 }
 
-#rodeo-recovery {
+#beach-street {
   display: flex;
   flex-wrap: wrap;
   height: 1325x;
@@ -109,13 +111,13 @@
   justify-content: center;
 }
 
-#rodeo-recovery-video {
+#beach-street-video {
   height: 600px;
   width: 1200px;
   border-radius: 15px;
 }
 
-#rodeo-recovery a {
+#beach-street a {
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: wrap;
@@ -127,8 +129,9 @@
   text-decoration: none;
 }
 
-#rodeo-recovery a:hover {
+#beach-street a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 } 
 
 #draw-the-line h3 {
@@ -163,6 +166,7 @@
 
 #draw-the-line a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 .dtl-image {
   height: 600px;
@@ -205,6 +209,7 @@
 
 #kit a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 .kit-image {
   height: 600px;
@@ -244,6 +249,7 @@
 
 #note-taker a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 
 .note-taker {
@@ -285,6 +291,7 @@
 
 #weather-app a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 
 .weather {
@@ -327,6 +334,7 @@
 
 #rapid-quiz a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 
 .quiz {
@@ -368,6 +376,7 @@
 
 #workday a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 
 .workday {
@@ -409,6 +418,7 @@
 
 #password-generator a:hover {
   color: var(--tertiary-color);
+  transition: .3s ease;
 }
 
 .password-generator {

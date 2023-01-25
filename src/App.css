@@ -16,36 +16,32 @@ body {
   font-family: Copperplate, Impact, sans-serif;
 }
 
-/* .example-enter {
-    opacity: 0.01;
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  #nav {
+    padding: 20px;
+    border-bottom: 1px solid var(--secondary-color);
   }
-  
-  .example-enter.example-enter-active {
-    opacity: 1;
-    transition: opacity 500ms ease-in;
+
+  #nav h1 a{
+    font-size: 22px;
+    margin-left: auto;
+    border: none;
+    padding: 0px;
+    
   }
-  
-  .example-leave {
-    opacity: 1;
-  }
-  
-  .example-leave.example-leave-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
+
+  /* #nav-titles #title-list .title {
+    font-size: 22px;
   } */
 
-/* Extra small devices */
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-  .header {
-    font-size: 30px;
+  #title-list {
+    display: none !important;
   }
 
-  #nav-titles #title-list .title {
-    font-size: 22px;
-  }
-
-  #nav-titles #title-list a {
-    font-size: 22px;
+  #hamburger-btn {
+    display: contents !important;
   }
 
   #about #about-container {
@@ -71,12 +67,12 @@ body {
     text-align: center;
   }
 
-  #rodeo-recovery #rodeo-recovery-video {
+  #beach-street #beach-street-video {
     height: 150px;
     width: 300px;
   }
 
-  #rodeo-recovery h3 {
+  #beach-street h3 {
     text-align: center;
   }
 
@@ -168,7 +164,28 @@ body {
 }
 
 /* Portrait tablets and large phones, 600px + */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  #nav {
+    padding: 20px;
+  }
+
+  #nav h1 a{
+    font-size: 30px;
+    margin-left: auto;
+  }
+
+  /* #nav-titles #title-list .title {
+    font-size: 22px;
+  } */
+
+  #title-list {
+    display: none !important;
+  }
+
+  #hamburger-btn {
+    display: contents !important;
+  }
+
   #about #about-container {
     display: flex;
     flex-wrap: wrap;
@@ -192,12 +209,12 @@ body {
     width: 500px;
   }
 
-  #rodeo-recovery #rodeo-recovery-video {
+  #beach-street #beach-street-video {
     height: 250px;
     width: 500px;
   }
 
-  #rodeo-recovery h3 {
+  #beach-street h3 {
     text-align: center;
   }
 
@@ -305,12 +322,12 @@ body {
     text-align: center;
   }
 
-  #rodeo-recovery #rodeo-recovery-video {
+  #beach-street #beach-street-video {
     height: 250px;
     width: 500px;
   }
 
-  #rodeo-recovery h3 {
+  #beach-street h3 {
     text-align: center;
   }
 
@@ -400,12 +417,12 @@ body {
 /* Laptops and desktops, 992px + */
 @media only screen and (min-width: 980px) and (max-width: 1024px) {
 
-  #rodeo-recovery #rodeo-recovery-video {
+  #beach-street #beach-street-video {
     height: 250px;
     width: 500px;
   }
 
-  #rodeo-recovery h3 {
+  #beach-street h3 {
     text-align: center;
   }
   
